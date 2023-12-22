@@ -1,2 +1,13 @@
-
 /* Your CSS Code here. */
+.holder{
+	display: grid;
+	grid-template-columns: repeat(2, 200px);
+	grid-template-rows: repeat(2, 200px);
+	gap: 10px;
+}
+.item{
+	display: grid;
+	background-color: lightblue;
+	text-align: center;
+	align-items: center;
+}
